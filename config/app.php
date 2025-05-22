@@ -121,13 +121,6 @@ return [
     'maintenance' => [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
-    ],
-    'providers' => [
-    // Other providers...
-    App\Providers\QuickBooksServiceProvider::class,
-    ],
-    'aliases' => [
-        // Other aliases...
-        'QuickBooks' => E3DevelopmentSolutions\QuickBooks\Facades\QuickBooks::class,
     ]
+
 ];

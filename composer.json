@@ -23,8 +23,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "E3DevelopmentSolutions\\QuickBooks\\": "vendor/e3-development-solutions/quickbooks/src/"
+            "Database\\Seeders\\": "database/seeders/"
+
         }
     },
     "autoload-dev": {
