@@ -6,15 +6,25 @@
     "keywords": [
         "laravel",
         "framework"
+    ],"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/E3-Development-Solutions/laravel-quickbooks-package.git"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "e3-development-solutions/laravel-quickbooks-package",
+                "version": "0.01",
+                "source": {
+                    "url": "https://github.com/E3-Development-Solutions/laravel-quickbooks-package.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
+        }
     ],
-    "license": "MIT",
-    "require": {
-        "php": "^8.2",
-        "inertiajs/inertia-laravel": "^2.0",
-        "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1",
-        "tightenco/ziggy": "^2.4"
-    },
+   
     "require-dev": {
         "fakerphp/faker": "^1.23",
         "laravel/pail": "^1.2.2",
@@ -24,6 +34,7 @@
         "nunomaduro/collision": "^8.6",
         "pestphp/pest": "^3.8",
         "pestphp/pest-plugin-laravel": "^3.2"
+
     },
     "autoload": {
         "psr-4": {
@@ -82,5 +93,8 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require": {
+        "e3-development-solutions/laravel-quickbooks-package": "^0.01.0"
+    }
 }
